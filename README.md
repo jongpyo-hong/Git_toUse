@@ -87,4 +87,15 @@
     6) git commit -m "내용" : 로컬 저장소에 추가
     7) git push origin master : 원격 저장소에 업로드
 
-# 9. Sourcetree 
+# 9. GitIgnore
+- .gitignore 깃 원격 저장소에 반영 배제
+
+*.확장자 : 확장자 배제
+파일명/ : 파일명을 포함한 모든 경로 배제
+폴더명/ : 폴더명을 포함한 모든 경로 배제
+/경로 -> 메인
+
+경로/ -> 경로가 포함된 모든 디렉토리
+
+
+# 10. Sourcetree 
