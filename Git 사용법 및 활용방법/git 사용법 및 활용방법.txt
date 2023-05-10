@@ -33,6 +33,24 @@
 	
 3. 커밋 로그
 	- git log
+	- git log --oneline : 한줄로 짧게 볼 수 있다(commit id)
+	
 4. 버전 관리
-5. 브랜치 관리
+	- git checkout (commit아이디)
+	- git checkout - : 바로 직전 시점으로 복귀
+	
+5. 
+	5-1) 브랜치 관리 - 기본 브랜치(master)
+	git branch : 현재 브랜치 목록
+	git branch 브랜치명 : 브랜치 생성
+		현재 브랜치 기준 위치(소스) -> 생성된 브랜치로 복사
+	
+	5-2) 브랜치 이동
+	git checkout 브랜치명 : 브랜치 이동
+	
+
 6. 소스 합치기
+
+
+** 명령어 총 정리
+	1)
