@@ -41,17 +41,27 @@
 	
 5. 
 	5-1) 브랜치 관리 - 기본 브랜치(master)
-	git branch : 현재 브랜치 목록
-	git branch 브랜치명 : 브랜치 생성
+	- git branch : 현재 브랜치 목록
+	- git branch 브랜치명 : 브랜치 생성
 		현재 브랜치 기준 위치(소스) -> 생성된 브랜치로 복사
 	
 	5-2) 브랜치 이동
-	git checkout 브랜치명 : 브랜치 이동
+	- git checkout 브랜치명 : 브랜치 이동
+	
+	5-3) 브랜치 삭제
+	- git branch -D 브랜치명
+	
+	5-4) 브랜치명 변경
+	- git branch -M 브랜치명
 	
 
 6. 소스 합치기
 	git merge 브랜치1
 		-> 현재 브랜치 기준으로 브랜치1 소스가 병합된다
 
-** 명령어 총 정리
-	1)
+** 명령어 총 정리 및 순서
+	1) git init - 최초 명령 , git 폴터 생성
+	2) git config --global user.email "user@example.com" : git 로컬에 이메일 설정
+	3) git config --global user.name "user" : (github uri의 github.com/"user")
+	
+7. 원격 레포지토리 연결
