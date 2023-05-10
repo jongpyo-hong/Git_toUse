@@ -10,13 +10,13 @@
 	\r\n(CRLF)
 	\n(LF)
 	
-# 1. git 설치
+1. git 설치
 	- git-scm.com 에서 설치
 
-# 2. 로컬 레포지토리(로컬 저장소)
+2. 로컬 레포지토리(로컬 저장소)
 	- git init : 로컬에 저장할 수 있는 공간 생성
 
-# 3. 계정연결
+3. 계정연결
 	- git config --global user.email "이메일"
 	- git config --global user.name "계정"
 	
