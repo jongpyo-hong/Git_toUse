@@ -60,15 +60,6 @@
 	git merge 브랜치1
 		-> 현재 브랜치 기준으로 브랜치1 소스가 병합된다
 
-# * 원격저장소 업로드 방법
-	1) git init - 최초 명령 , git 폴더 생성
-	2) git config --global user.email "user@example.com" : git 로컬에 이메일 설정
-	3) git config --global user.name "user" : (github uri의 github.com/"user")
-    4) git remote add origin 원격저장소 주소(github.com/"user")
-    5) git add . : 작업한 내용 추가
-    6) git commit -m "내용" : 로컬 저장소에 추가
-    7) git push origin master : 원격 저장소에 업로드
-	
 # 7. 원격 레포지토리 연결
 git remote add origin 원격저장소 주소 : 추가
            set-url origin 원격저장소 주소 : 변경
@@ -80,3 +71,16 @@ git remote add origin 원격저장소 주소 : 추가
 
     참고 ) origin/브랜치명 -> 원격 브랜치명
             브랜치명 -> 로컬 브랜치명
+
+원격 레포지토리 브랜치 상태 -> 로컬 레포지토리 브랜치 상태 동기화
+- git pull origin 브랜치명
+
+# 8. 원격저장소 업로드 방법
+	1) git init - 최초 명령 , git 폴더 생성
+	2) git config --global user.email "user@example.com" : git 로컬에 이메일 설정
+	3) git config --global user.name "user" : (github uri의 github.com/"user")
+    4) git remote add origin 원격저장소 주소(github.com/"user")
+    5) git add . : 작업한 내용 추가
+    6) git commit -m "내용" : 로컬 저장소에 추가
+    7) git push origin master : 원격 저장소에 업로드
+	
