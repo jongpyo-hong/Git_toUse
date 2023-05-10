@@ -60,7 +60,7 @@
 	git merge 브랜치1
 		-> 현재 브랜치 기준으로 브랜치1 소스가 병합된다
 
-# *순서
+# * 원격저장소 업로드 방법
 	1) git init - 최초 명령 , git 폴더 생성
 	2) git config --global user.email "user@example.com" : git 로컬에 이메일 설정
 	3) git config --global user.name "user" : (github uri의 github.com/"user")
